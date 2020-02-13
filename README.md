@@ -1,1 +1,10 @@
 # CodeSelfPortraitP5
+
+## By Lauren Marone
+
+
+### Software Design
+This assignment includes the basics of p5 like variables, setup function, draw function, and drawing shapes. As well as covering the basics, this assignment also includes more complicated additives of p5, mostly focusing on interaction. If the user hovers over the screen, they are able to make blue bubbles appear in the background that fill the screen up to wherever their mouse goes. This was done by inserting a for loop in the draw function. I used a state machine to create different emotions and looks for my self portrait. When the user clicks "a" on the keyboard, my face will turn angry, when they press "s" on the keyboard, my face becomes surprised, and when they press "c" my face becomes cool. To get any of these states back to normal, the user has to left click the mouse. As well as these user interactions, I was able to make myself blink randomly, without the user having to click, press, or drag anything. I accomplished this by creating a function to draw the eyes and using an if/else statement. I state that if a random number between 1-10 is less than 9 (so any number from 1-8), my eyes will show. If the random number lands on 10, my eyes will close. Since it is random, it makes the blinking look more real.
+
+### Reflections
+I was very excited to finish this project, not because I did not like it but because I LOVED the outcome. I have worked in p5 before so translating processing to p5 was not that difficult. I have never used the state machine before so, at first, I was a bit confused. Once I looked over the code example from class another time, however, it clicked and I was able to translate it into my assignment. It was difficult working with all of the different rotate(); assignments I have in my code and I’d like to find an easier way to work with them in the future. It was a fun challenge to try to get my eyes to blink at random intervals and once I got it working, I was so proud of myself. I feel that my self portrait looks really great and I am super pumped to show my classmates!
